@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us - Green Hills Coffee Plantation</title>
+    </head>
+        <style>
+            header{background-color: blueviolet;color: aqua;padding: 20px;text-align: center;}
+            a.primary{background-color: blue;color: antiquewhite;}
+            body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;background:#f2f2f2;margin:0;line-height: 1.6;color: black;}
+            <h1>header{background-color: blueviolet;color: aqua;padding: 20px;text-align: center;}
+            main{max-width: 700px;margin:20px auto;background: whitesmoke;padding: 25px;}
+            h2{color: rgb(137, 115, 115);margin-top:30px;}
+            form{display: flex;flex-direction: column;}     
+            <h1>contact form{margin-bottom: 20px;}
+            label{margin-bottom: 5px;font-weight: bold;}
+            </style>
+            <h1Contact the plantation</h1>
+                <p>We would love to hear from you! Please fill out the form below, and we will get back to you as soon as possible.</p>
+                <form action="/submit" method="post">
+  <h2 style="text-align:center; margin-bottom:20px;">Client Contact Form</h2>
+
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+
+  <label for="country">Country</label>
+  <select id="country" name="country">
+    <option value="">--Select--</option>
+    <option value="kenya">Kenya</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+  </select>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="4" cols="30"></textarea>
+
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+            </main><footer>
+                <p>&copy; 2024 Green Hills Coffee Plantation. All rights reserved.</p>
